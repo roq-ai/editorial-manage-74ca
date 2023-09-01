@@ -1,0 +1,2422 @@
+[
+  {
+    "paper": [
+      {
+        "id": "c436942e-5abe-45d6-9187-dd33daac0e6d",
+        "title": "Research Paper 1",
+        "content": "This is the content of the research paper.",
+        "status": "Draft",
+        "plagiarism_check": false,
+        "relevancy_check": true,
+        "created_at": "2023-08-31T22:48:43.489Z",
+        "updated_at": "2023-08-31T16:28:25.350Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "eae2e96f-2960-4bef-bb57-d2dad1cb6700",
+        "title": "Scientific Study",
+        "content": "The scientific study provides valuable insights.",
+        "status": "Under Review",
+        "plagiarism_check": true,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T20:58:06.700Z",
+        "updated_at": "2023-08-31T11:13:20.730Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "dfb736e5-bc64-467f-b6b9-4d295122f444",
+        "title": "Analysis Report",
+        "content": "The analysis report highlights key findings.",
+        "status": "Accepted",
+        "plagiarism_check": false,
+        "relevancy_check": true,
+        "created_at": "2023-08-31T20:40:10.033Z",
+        "updated_at": "2023-09-01T00:47:55.112Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "ea21a9f1-4934-4ccb-bbd4-cb26e71f9c2a",
+        "title": "Academic Paper",
+        "content": "The academic paper presents a comprehensive study.",
+        "status": "Published",
+        "plagiarism_check": true,
+        "relevancy_check": false,
+        "created_at": "2023-09-01T01:29:19.335Z",
+        "updated_at": "2023-09-01T03:32:08.759Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "0fc1b273-79bd-4700-ae2c-507068eb3f20",
+        "title": "Case Study",
+        "content": "The case study examines a specific scenario.",
+        "status": "Archived",
+        "plagiarism_check": false,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T14:11:08.775Z",
+        "updated_at": "2023-08-31T15:25:57.719Z",
+        "author_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "859b0ff3-5913-444d-9cc1-6c3cf3927918",
+        "comment": "Great work!",
+        "status": "Pending",
+        "created_at": "2023-08-31T22:48:02.653Z",
+        "updated_at": "2023-08-31T23:17:47.013Z",
+        "paper_id": "c436942e-5abe-45d6-9187-dd33daac0e6d",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "5418761c-f1f0-4d3d-a408-776b7096ffa1",
+        "comment": "Interesting findings.",
+        "status": "Approved",
+        "created_at": "2023-08-31T07:39:37.406Z",
+        "updated_at": "2023-08-31T21:23:36.564Z",
+        "paper_id": "ea21a9f1-4934-4ccb-bbd4-cb26e71f9c2a",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "6d98d508-899c-4270-8371-7ca7e0da809a",
+        "comment": "Well-written paper.",
+        "status": "Rejected",
+        "created_at": "2023-08-31T14:04:23.550Z",
+        "updated_at": "2023-08-31T10:31:38.367Z",
+        "paper_id": "ea21a9f1-4934-4ccb-bbd4-cb26e71f9c2a",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "a6ca2afd-28fa-4d4f-ad31-c6bd7615205a",
+        "comment": "Needs further clarification.",
+        "status": "Completed",
+        "created_at": "2023-08-31T17:56:26.125Z",
+        "updated_at": "2023-08-31T03:57:40.434Z",
+        "paper_id": "eae2e96f-2960-4bef-bb57-d2dad1cb6700",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "15dd112c-36e8-42e1-87d1-626bceceebff",
+        "comment": "Impressive analysis.",
+        "status": "In Progress",
+        "created_at": "2023-08-31T05:39:51.787Z",
+        "updated_at": "2023-08-31T19:04:10.525Z",
+        "paper_id": "dfb736e5-bc64-467f-b6b9-4d295122f444",
+        "reviewer_id": "user_entity_pk"
+      }
+    ],
+    "publication": [
+      {
+        "id": "6e11734f-fc35-42b2-9342-f6890784f4a7",
+        "status": "Pending",
+        "created_at": "2023-08-31T18:09:11.493Z",
+        "updated_at": "2023-08-31T20:06:30.309Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "c436942e-5abe-45d6-9187-dd33daac0e6d"
+      },
+      {
+        "id": "bde3a28c-b4e1-4ba3-b283-8a08fb409b2d",
+        "status": "Published",
+        "created_at": "2023-08-31T13:29:05.036Z",
+        "updated_at": "2023-09-01T02:43:42.067Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "c436942e-5abe-45d6-9187-dd33daac0e6d"
+      },
+      {
+        "id": "336335df-5d75-4e95-bbab-80d574badc14",
+        "status": "Archived",
+        "created_at": "2023-09-01T01:26:37.202Z",
+        "updated_at": "2023-08-31T22:33:05.146Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "0fc1b273-79bd-4700-ae2c-507068eb3f20"
+      },
+      {
+        "id": "cbfe6cf7-deea-4d9f-830d-802d62094faa",
+        "status": "Under Review",
+        "created_at": "2023-08-31T05:31:52.087Z",
+        "updated_at": "2023-08-31T13:10:06.283Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "0fc1b273-79bd-4700-ae2c-507068eb3f20"
+      },
+      {
+        "id": "512780c5-0398-4c4a-a412-7747cb1914c4",
+        "status": "Approved",
+        "created_at": "2023-08-31T13:40:17.065Z",
+        "updated_at": "2023-08-31T18:16:23.214Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "c436942e-5abe-45d6-9187-dd33daac0e6d"
+      }
+    ],
+    "edit": [
+      {
+        "id": "c22b62a1-c00d-4bda-968e-36cee3641bfb",
+        "content": "Revised content with updated information.",
+        "status": "Pending",
+        "created_at": "2023-09-01T01:54:48.796Z",
+        "updated_at": "2023-08-31T23:37:24.615Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "dfb736e5-bc64-467f-b6b9-4d295122f444"
+      },
+      {
+        "id": "9d02af58-0dcf-4347-b009-f7760776dbcb",
+        "content": "Edited version addressing reviewer comments.",
+        "status": "In Progress",
+        "created_at": "2023-08-31T15:47:17.574Z",
+        "updated_at": "2023-08-31T06:42:39.108Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "eae2e96f-2960-4bef-bb57-d2dad1cb6700"
+      },
+      {
+        "id": "46569f2c-e769-4495-9bd6-ac1a2e48f046",
+        "content": "Finalized content for publication.",
+        "status": "Completed",
+        "created_at": "2023-08-31T23:12:19.457Z",
+        "updated_at": "2023-08-31T07:05:20.879Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "ea21a9f1-4934-4ccb-bbd4-cb26e71f9c2a"
+      },
+      {
+        "id": "98debe45-35aa-42b4-83a6-95c5dc1272e0",
+        "content": "Revised draft based on feedback.",
+        "status": "Approved",
+        "created_at": "2023-09-01T03:27:11.595Z",
+        "updated_at": "2023-08-31T13:52:15.533Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "eae2e96f-2960-4bef-bb57-d2dad1cb6700"
+      },
+      {
+        "id": "9df26027-8664-4478-83da-edee2c90a46e",
+        "content": "Polished version ready for review.",
+        "status": "Rejected",
+        "created_at": "2023-08-31T12:13:49.059Z",
+        "updated_at": "2023-08-31T23:35:18.871Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "eae2e96f-2960-4bef-bb57-d2dad1cb6700"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "048c53bb-cf30-4bc9-8e43-b2161dce8b92",
+        "email": "Mittie.Schuppe4@gmail.com",
+        "firstName": "Angelo",
+        "lastName": "Batz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1230.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5e86543e-c7fc-4665-ab1b-5cc48d000286",
+        "email": "Giuseppe.Adams@yahoo.com",
+        "firstName": "Virgie",
+        "lastName": "Prosacco",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13253650",
+        "tenantId": null
+      },
+      {
+        "reference": "537def72-ab24-4441-8a8d-475d26f31f62",
+        "email": "Bernice.Feeney@yahoo.com",
+        "firstName": "Margarett",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21389307",
+        "tenantId": null
+      },
+      {
+        "reference": "21d5949e-4c8e-49e8-afce-4c91987d6d52",
+        "email": "Pietro65@hotmail.com",
+        "firstName": "Sheldon",
+        "lastName": "Hyatt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1123.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ebd22b43-5120-4779-93ca-02d8fbe94e33",
+        "email": "Katherine_Frami46@yahoo.com",
+        "firstName": "Judah",
+        "lastName": "Moen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18901959",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "paper": [
+      {
+        "id": "e00a14c7-cc92-4ad1-994d-b24f47ffa2f3",
+        "title": "Research Paper 1",
+        "content": "This is the content of paper 1.",
+        "status": "Draft",
+        "plagiarism_check": true,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T03:57:14.212Z",
+        "updated_at": "2023-08-31T05:11:56.658Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "9eb0c03f-bb24-457c-b673-3510bfcc2874",
+        "title": "Scientific Study",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "status": "Under Review",
+        "plagiarism_check": true,
+        "relevancy_check": true,
+        "created_at": "2023-08-31T16:44:41.759Z",
+        "updated_at": "2023-09-01T00:41:10.929Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "11b67500-4fc8-4181-970e-89f59b11d0b7",
+        "title": "Analysis Report",
+        "content": "Nulla nec diam euismod, ultricies mauris ac, aliquet ex.",
+        "status": "Accepted",
+        "plagiarism_check": true,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T22:54:39.766Z",
+        "updated_at": "2023-08-31T05:39:22.425Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "15f5f734-411d-47d9-bdbc-d421a1abf648",
+        "title": "Case Study",
+        "content": "Sed euismod velit at felis fermentum, non hendrerit mi interdum.",
+        "status": "Rejected",
+        "plagiarism_check": true,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T14:58:33.322Z",
+        "updated_at": "2023-08-31T12:01:51.731Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "a37cc128-9d89-4712-8114-9d850cb45a21",
+        "title": "Experimental Findings",
+        "content": "Vestibulum sit amet ligula nec lectus dignissim fermentum.",
+        "status": "Published",
+        "plagiarism_check": true,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T08:12:19.210Z",
+        "updated_at": "2023-08-31T05:59:01.507Z",
+        "author_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "a6ed29aa-91ac-47c2-bb8d-9a62b082557f",
+        "comment": "This paper needs more analysis.",
+        "status": "Pending",
+        "created_at": "2023-08-31T18:14:44.532Z",
+        "updated_at": "2023-08-31T12:20:07.694Z",
+        "paper_id": "a37cc128-9d89-4712-8114-9d850cb45a21",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "ec005314-c9f5-4ec7-910b-d883cc48258a",
+        "comment": "The content is well-structured and informative.",
+        "status": "Approved",
+        "created_at": "2023-08-31T22:08:41.797Z",
+        "updated_at": "2023-08-31T11:11:24.085Z",
+        "paper_id": "e00a14c7-cc92-4ad1-994d-b24f47ffa2f3",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "0bec2d92-4bc0-4337-9e2c-75e8d3de2861",
+        "comment": "The study design is flawed.",
+        "status": "Rejected",
+        "created_at": "2023-08-31T09:44:59.155Z",
+        "updated_at": "2023-08-31T17:32:41.169Z",
+        "paper_id": "15f5f734-411d-47d9-bdbc-d421a1abf648",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "7f449e70-4508-43dc-81b2-60f9991d5f34",
+        "comment": "The findings are significant and contribute to the field.",
+        "status": "Under Review",
+        "created_at": "2023-08-31T21:09:28.300Z",
+        "updated_at": "2023-08-31T11:48:51.775Z",
+        "paper_id": "15f5f734-411d-47d9-bdbc-d421a1abf648",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "fc98a35c-da16-4ab3-b998-c9136281639e",
+        "comment": "The methodology is unclear and needs improvement.",
+        "status": "Completed",
+        "created_at": "2023-08-31T04:38:36.262Z",
+        "updated_at": "2023-08-31T23:38:01.616Z",
+        "paper_id": "a37cc128-9d89-4712-8114-9d850cb45a21",
+        "reviewer_id": "user_entity_pk"
+      }
+    ],
+    "publication": [
+      {
+        "id": "acd4c335-4e09-40ad-b0fb-246534fe1945",
+        "status": "In Progress",
+        "created_at": "2023-09-01T03:42:54.180Z",
+        "updated_at": "2023-09-01T00:39:32.515Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "15f5f734-411d-47d9-bdbc-d421a1abf648"
+      },
+      {
+        "id": "398d0ea2-19e7-43fc-8ecb-d57447cfd077",
+        "status": "Submitted",
+        "created_at": "2023-08-31T23:35:38.333Z",
+        "updated_at": "2023-08-31T20:19:18.294Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "a37cc128-9d89-4712-8114-9d850cb45a21"
+      },
+      {
+        "id": "47aca834-fa68-4487-a87e-89938f7daaeb",
+        "status": "Under Review",
+        "created_at": "2023-08-31T13:17:27.503Z",
+        "updated_at": "2023-08-31T12:09:02.078Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "e00a14c7-cc92-4ad1-994d-b24f47ffa2f3"
+      },
+      {
+        "id": "0701ca0f-1628-4944-8757-5dc1154e2910",
+        "status": "Accepted",
+        "created_at": "2023-08-31T23:07:02.375Z",
+        "updated_at": "2023-08-31T12:42:09.599Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "11b67500-4fc8-4181-970e-89f59b11d0b7"
+      },
+      {
+        "id": "304af72b-bbf1-4174-8e3e-64e06e84fe55",
+        "status": "Published",
+        "created_at": "2023-08-31T07:31:33.301Z",
+        "updated_at": "2023-08-31T04:38:16.767Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "9eb0c03f-bb24-457c-b673-3510bfcc2874"
+      }
+    ],
+    "edit": [
+      {
+        "id": "f75b6d7f-ea43-4d8c-a947-b2918801d47b",
+        "content": "Updated content for review.",
+        "status": "Pending",
+        "created_at": "2023-08-31T09:55:32.997Z",
+        "updated_at": "2023-08-31T16:28:36.831Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "15f5f734-411d-47d9-bdbc-d421a1abf648"
+      },
+      {
+        "id": "736d712a-0671-4cad-89ab-a3c995c268a8",
+        "content": "Revised version of the paper.",
+        "status": "In Progress",
+        "created_at": "2023-08-31T16:02:56.100Z",
+        "updated_at": "2023-08-31T12:40:07.598Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "15f5f734-411d-47d9-bdbc-d421a1abf648"
+      },
+      {
+        "id": "7d329de4-ee86-4705-96c2-3e8b90eba49a",
+        "content": "Additional data analysis included.",
+        "status": "Completed",
+        "created_at": "2023-08-31T14:19:15.756Z",
+        "updated_at": "2023-09-01T00:59:27.626Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "e00a14c7-cc92-4ad1-994d-b24f47ffa2f3"
+      },
+      {
+        "id": "69f770b5-e48d-4967-99d6-ae4913d39207",
+        "content": "Improved methodology section.",
+        "status": "Under Review",
+        "created_at": "2023-08-31T14:40:49.650Z",
+        "updated_at": "2023-08-31T14:22:05.040Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "a37cc128-9d89-4712-8114-9d850cb45a21"
+      },
+      {
+        "id": "6034047c-24b8-48c1-b47f-c63941c53f12",
+        "content": "Final draft ready for publication.",
+        "status": "Approved",
+        "created_at": "2023-09-01T03:20:26.226Z",
+        "updated_at": "2023-08-31T19:11:41.793Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "11b67500-4fc8-4181-970e-89f59b11d0b7"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "70e1183d-b246-48e0-81f1-e85fef002384",
+        "email": "Delbert10@gmail.com",
+        "firstName": "Sandra",
+        "lastName": "Terry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1187.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0020aa4e-f7ca-48a0-b8a4-951ca7c7306d",
+        "email": "Orie39@gmail.com",
+        "firstName": "Deonte",
+        "lastName": "Hansen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/277.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "21b17a69-8e62-4343-8be4-6b62226ccea2",
+        "email": "Greta.Gerhold@yahoo.com",
+        "firstName": "Eino",
+        "lastName": "Ernser",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/485.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "342f09f1-8a4a-436a-b9f9-8ac7e3be572b",
+        "email": "Keara52@hotmail.com",
+        "firstName": "Herta",
+        "lastName": "Upton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/827.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e1afe2a9-6d13-4380-ba00-e7b16e79fbc1",
+        "email": "Elvis_Jakubowski60@hotmail.com",
+        "firstName": "Makenna",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79587546",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "paper": [
+      {
+        "id": "ca5404de-0a62-460d-aff8-709b41cf7b0e",
+        "title": "Research Paper 1",
+        "content": "This is the content of paper 1.",
+        "status": "draft",
+        "plagiarism_check": false,
+        "relevancy_check": false,
+        "created_at": "2023-09-01T01:49:22.712Z",
+        "updated_at": "2023-08-31T20:39:45.146Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "c5625146-a778-4413-b7a5-0cb8685f82ff",
+        "title": "Scientific Study",
+        "content": "The study conducted showed interesting results.",
+        "status": "under review",
+        "plagiarism_check": true,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T22:31:47.734Z",
+        "updated_at": "2023-09-01T00:53:53.918Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "9e21a0b0-3a60-4068-a67b-32a645401e8d",
+        "title": "Analysis Report",
+        "content": "The report provides a detailed analysis.",
+        "status": "accepted",
+        "plagiarism_check": false,
+        "relevancy_check": true,
+        "created_at": "2023-08-31T08:10:35.618Z",
+        "updated_at": "2023-08-31T08:41:53.227Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "5a2a1b54-57ae-4be8-b5ea-0e45c1fd8842",
+        "title": "Case Study",
+        "content": "The case study examines a specific scenario.",
+        "status": "rejected",
+        "plagiarism_check": true,
+        "relevancy_check": true,
+        "created_at": "2023-08-31T06:51:22.488Z",
+        "updated_at": "2023-08-31T09:43:56.033Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "9c5b1611-3e28-42ce-b878-bf619d1a4a27",
+        "title": "Whitepaper",
+        "content": "The whitepaper presents new findings.",
+        "status": "published",
+        "plagiarism_check": true,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T08:57:26.598Z",
+        "updated_at": "2023-08-31T04:04:08.175Z",
+        "author_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "bfb2d8ae-6c3d-46fb-8108-cef08c2bc9ca",
+        "comment": "This is a great paper.",
+        "status": "pending",
+        "created_at": "2023-08-31T22:59:54.340Z",
+        "updated_at": "2023-08-31T21:26:30.490Z",
+        "paper_id": "ca5404de-0a62-460d-aff8-709b41cf7b0e",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "82d73742-ed41-4c7d-b18f-d5b6d849ae58",
+        "comment": "The study design needs improvement.",
+        "status": "approved",
+        "created_at": "2023-08-31T07:50:36.820Z",
+        "updated_at": "2023-08-31T13:30:28.030Z",
+        "paper_id": "c5625146-a778-4413-b7a5-0cb8685f82ff",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "ba706e97-3023-45e8-b660-3530f5938aa1",
+        "comment": "The report lacks clarity.",
+        "status": "rejected",
+        "created_at": "2023-08-31T17:24:02.311Z",
+        "updated_at": "2023-09-01T00:06:28.892Z",
+        "paper_id": "ca5404de-0a62-460d-aff8-709b41cf7b0e",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "89c55d3a-bf93-466f-b5a1-7694490a683c",
+        "comment": "The case study is well-written.",
+        "status": "in progress",
+        "created_at": "2023-08-31T14:33:05.446Z",
+        "updated_at": "2023-08-31T05:24:58.356Z",
+        "paper_id": "c5625146-a778-4413-b7a5-0cb8685f82ff",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "6b119cf5-98d5-4221-a715-febb32e7c9d0",
+        "comment": "The whitepaper is informative.",
+        "status": "completed",
+        "created_at": "2023-08-31T15:52:00.170Z",
+        "updated_at": "2023-08-31T06:08:08.445Z",
+        "paper_id": "ca5404de-0a62-460d-aff8-709b41cf7b0e",
+        "reviewer_id": "user_entity_pk"
+      }
+    ],
+    "publication": [
+      {
+        "id": "c95f7622-11f5-4c45-9e87-a0d0198b9b01",
+        "status": "in preparation",
+        "created_at": "2023-09-01T02:11:06.127Z",
+        "updated_at": "2023-08-31T18:47:02.257Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "9c5b1611-3e28-42ce-b878-bf619d1a4a27"
+      },
+      {
+        "id": "0ce59f5b-a168-4f2d-afad-80811f2b5f10",
+        "status": "submitted",
+        "created_at": "2023-08-31T13:54:36.148Z",
+        "updated_at": "2023-08-31T05:03:34.721Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "5a2a1b54-57ae-4be8-b5ea-0e45c1fd8842"
+      },
+      {
+        "id": "bc0a0654-aed6-45d7-8907-0a9d15f8dbd1",
+        "status": "under review",
+        "created_at": "2023-08-31T16:59:32.871Z",
+        "updated_at": "2023-08-31T06:39:48.098Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "c5625146-a778-4413-b7a5-0cb8685f82ff"
+      },
+      {
+        "id": "6b40d522-a943-447e-ac8e-1fb63d085547",
+        "status": "accepted",
+        "created_at": "2023-08-31T13:19:05.879Z",
+        "updated_at": "2023-08-31T14:39:06.703Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "c5625146-a778-4413-b7a5-0cb8685f82ff"
+      },
+      {
+        "id": "caa24e9e-96a5-4ff8-8dfd-13de19f78471",
+        "status": "published",
+        "created_at": "2023-08-31T15:08:47.715Z",
+        "updated_at": "2023-08-31T17:38:17.542Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "5a2a1b54-57ae-4be8-b5ea-0e45c1fd8842"
+      }
+    ],
+    "edit": [
+      {
+        "id": "1fae6a23-7344-471c-8a81-1248e91b4944",
+        "content": "This is the edited content.",
+        "status": "pending",
+        "created_at": "2023-09-01T03:45:16.726Z",
+        "updated_at": "2023-08-31T23:40:59.907Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "ca5404de-0a62-460d-aff8-709b41cf7b0e"
+      },
+      {
+        "id": "ccc56a9c-4b9c-434a-bfad-66d9899f9951",
+        "content": "The changes made improve the paper.",
+        "status": "in progress",
+        "created_at": "2023-09-01T02:37:01.156Z",
+        "updated_at": "2023-08-31T16:53:33.329Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "c5625146-a778-4413-b7a5-0cb8685f82ff"
+      },
+      {
+        "id": "4be85f8a-03be-4de3-bc89-e65ce99e36ce",
+        "content": "The revised version addresses the feedback.",
+        "status": "completed",
+        "created_at": "2023-08-31T12:57:14.113Z",
+        "updated_at": "2023-08-31T18:13:23.393Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "9c5b1611-3e28-42ce-b878-bf619d1a4a27"
+      },
+      {
+        "id": "10d85aa6-452b-4444-8e21-0d43dfefa25d",
+        "content": "The edited case study includes additional data.",
+        "status": "rejected",
+        "created_at": "2023-08-31T06:03:49.026Z",
+        "updated_at": "2023-08-31T08:11:41.947Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "9c5b1611-3e28-42ce-b878-bf619d1a4a27"
+      },
+      {
+        "id": "7495ab7f-7b30-45dd-b729-a74772563497",
+        "content": "The updated whitepaper presents new insights.",
+        "status": "approved",
+        "created_at": "2023-08-31T09:57:51.563Z",
+        "updated_at": "2023-08-31T06:02:45.118Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "9c5b1611-3e28-42ce-b878-bf619d1a4a27"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6f02b141-acb9-4ae9-8608-690cd839b909",
+        "email": "Hilton.Treutel26@yahoo.com",
+        "firstName": "Clovis",
+        "lastName": "Huels",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/875.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9afcb3a9-1881-4527-ae02-68c641819da4",
+        "email": "Zoila_Zboncak56@yahoo.com",
+        "firstName": "Oran",
+        "lastName": "Schroeder",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/780.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8edcbff2-9a4e-4b3d-9e2b-8624e6bc5369",
+        "email": "Audie33@yahoo.com",
+        "firstName": "Bernita",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/517.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "35927339-c73c-40b9-ab3d-d9cfb577bdf0",
+        "email": "Elyssa93@gmail.com",
+        "firstName": "Hallie",
+        "lastName": "Effertz-Zemlak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/792.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d3ec96e1-cf23-4dbe-b27f-03d7d2d16ce4",
+        "email": "Roma.Bahringer@yahoo.com",
+        "firstName": "Armando",
+        "lastName": "O'Connell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14797096",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "paper": [
+      {
+        "id": "0b89acb9-ee6d-4ea6-8581-8f3015c4bed8",
+        "title": "Introduction to Machine Learning",
+        "content": "This paper explores the basics of machine learning and its applications.",
+        "status": "Draft",
+        "plagiarism_check": true,
+        "relevancy_check": true,
+        "created_at": "2023-08-31T17:18:47.001Z",
+        "updated_at": "2023-08-31T11:25:54.458Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "c3be255a-d277-4854-830b-2f5e7e562892",
+        "title": "The Impact of Climate Change on Biodiversity",
+        "content": "This paper discusses the effects of climate change on various species.",
+        "status": "Under Review",
+        "plagiarism_check": true,
+        "relevancy_check": true,
+        "created_at": "2023-08-31T18:42:23.399Z",
+        "updated_at": "2023-09-01T02:16:03.343Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "f04e976d-c2ae-4fd5-afeb-b6d79f72960b",
+        "title": "Advancements in Artificial Intelligence",
+        "content": "This paper highlights recent advancements in AI technology.",
+        "status": "Accepted",
+        "plagiarism_check": false,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T12:41:44.599Z",
+        "updated_at": "2023-08-31T19:39:16.428Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "6c72d68d-9fa5-42c3-89e6-98c5a690b126",
+        "title": "Understanding Quantum Computing",
+        "content": "This paper provides an overview of quantum computing principles.",
+        "status": "Rejected",
+        "plagiarism_check": true,
+        "relevancy_check": true,
+        "created_at": "2023-08-31T08:36:47.036Z",
+        "updated_at": "2023-08-31T19:40:06.135Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "3ed15d6a-d60e-45da-afc5-b41c297f4027",
+        "title": "The Future of Robotics",
+        "content": "This paper explores the potential future developments in robotics.",
+        "status": "Published",
+        "plagiarism_check": false,
+        "relevancy_check": true,
+        "created_at": "2023-08-31T04:43:21.593Z",
+        "updated_at": "2023-09-01T02:44:23.509Z",
+        "author_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "6abf4e71-bafe-4038-889c-3602de5fe82f",
+        "comment": "The paper provides a comprehensive analysis of the topic.",
+        "status": "Pending",
+        "created_at": "2023-09-01T01:00:08.818Z",
+        "updated_at": "2023-08-31T13:30:27.805Z",
+        "paper_id": "3ed15d6a-d60e-45da-afc5-b41c297f4027",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "699e6852-3cd5-45d6-93d6-a39e5ddb7790",
+        "comment": "The content is well-written and easy to understand.",
+        "status": "Approved",
+        "created_at": "2023-09-01T02:57:01.253Z",
+        "updated_at": "2023-08-31T23:33:34.563Z",
+        "paper_id": "c3be255a-d277-4854-830b-2f5e7e562892",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "e36e4303-3ffc-4d9c-9ca1-b34ceae70289",
+        "comment": "Further research is needed to support the claims made in the paper.",
+        "status": "Rejected",
+        "created_at": "2023-09-01T02:51:40.972Z",
+        "updated_at": "2023-09-01T01:29:11.677Z",
+        "paper_id": "c3be255a-d277-4854-830b-2f5e7e562892",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "2630d77c-c6b2-4c3c-a4f7-af4175821974",
+        "comment": "The paper lacks proper citation and references.",
+        "status": "Revised",
+        "created_at": "2023-08-31T11:52:15.070Z",
+        "updated_at": "2023-08-31T11:31:44.838Z",
+        "paper_id": "0b89acb9-ee6d-4ea6-8581-8f3015c4bed8",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "a5074286-03fa-4843-aef4-e8315cd6351f",
+        "comment": "The findings presented in the paper are significant and contribute to the field.",
+        "status": "Finalized",
+        "created_at": "2023-08-31T13:21:15.233Z",
+        "updated_at": "2023-08-31T21:38:57.248Z",
+        "paper_id": "6c72d68d-9fa5-42c3-89e6-98c5a690b126",
+        "reviewer_id": "user_entity_pk"
+      }
+    ],
+    "publication": [
+      {
+        "id": "d57b93d3-13c9-4dfd-ac2c-860d2672cb05",
+        "status": "In Progress",
+        "created_at": "2023-09-01T02:35:23.819Z",
+        "updated_at": "2023-08-31T16:13:45.285Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "6c72d68d-9fa5-42c3-89e6-98c5a690b126"
+      },
+      {
+        "id": "e19d453d-e875-4112-90e4-a30d590651a4",
+        "status": "Submitted",
+        "created_at": "2023-08-31T22:45:49.283Z",
+        "updated_at": "2023-08-31T22:09:57.211Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "3ed15d6a-d60e-45da-afc5-b41c297f4027"
+      },
+      {
+        "id": "11fa49aa-f4c2-461c-b2e6-8fb13277bfe3",
+        "status": "Under Review",
+        "created_at": "2023-08-31T07:50:36.275Z",
+        "updated_at": "2023-08-31T16:19:12.326Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "6c72d68d-9fa5-42c3-89e6-98c5a690b126"
+      },
+      {
+        "id": "130f18f9-dd65-47d5-a856-a002c3014a5b",
+        "status": "Accepted",
+        "created_at": "2023-08-31T07:02:44.313Z",
+        "updated_at": "2023-09-01T03:04:21.513Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "f04e976d-c2ae-4fd5-afeb-b6d79f72960b"
+      },
+      {
+        "id": "46750511-1eb7-418e-ae34-cab1b9516d28",
+        "status": "Published",
+        "created_at": "2023-08-31T17:16:33.026Z",
+        "updated_at": "2023-08-31T16:19:22.370Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "0b89acb9-ee6d-4ea6-8581-8f3015c4bed8"
+      }
+    ],
+    "edit": [
+      {
+        "id": "33217a93-f13c-4f67-abb3-1ce88c08df20",
+        "content": "The content of the paper needs to be revised for clarity.",
+        "status": "Pending",
+        "created_at": "2023-09-01T02:23:16.021Z",
+        "updated_at": "2023-08-31T11:37:33.740Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "0b89acb9-ee6d-4ea6-8581-8f3015c4bed8"
+      },
+      {
+        "id": "2d0484d3-3f36-46a5-be18-20853b22f209",
+        "content": "Additional information should be included to support the arguments.",
+        "status": "In Progress",
+        "created_at": "2023-08-31T08:07:52.375Z",
+        "updated_at": "2023-08-31T23:23:08.793Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "f04e976d-c2ae-4fd5-afeb-b6d79f72960b"
+      },
+      {
+        "id": "0e65f01f-385c-429e-96c5-6eca4d1db567",
+        "content": "The language used in the paper should be more concise.",
+        "status": "Completed",
+        "created_at": "2023-08-31T17:09:14.718Z",
+        "updated_at": "2023-08-31T16:34:49.342Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "6c72d68d-9fa5-42c3-89e6-98c5a690b126"
+      },
+      {
+        "id": "1a3bb7b3-0b35-4533-95fa-1cedb8006373",
+        "content": "The paper requires further proofreading for grammatical errors.",
+        "status": "Reviewed",
+        "created_at": "2023-08-31T17:17:09.219Z",
+        "updated_at": "2023-08-31T21:29:44.216Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "6c72d68d-9fa5-42c3-89e6-98c5a690b126"
+      },
+      {
+        "id": "52d4c3e0-1bd8-410c-a49a-89645fd68263",
+        "content": "The formatting of the paper needs to be improved.",
+        "status": "Finalized",
+        "created_at": "2023-08-31T23:21:13.042Z",
+        "updated_at": "2023-08-31T16:12:32.741Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "c3be255a-d277-4854-830b-2f5e7e562892"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3f121c18-6d45-4e92-8f24-e1af7c6d9371",
+        "email": "Raoul.Christiansen55@gmail.com",
+        "firstName": "Christelle",
+        "lastName": "Kris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/967.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8d006dd2-847d-41f6-8c7a-7cb2a5cbc7f1",
+        "email": "Jane.Harris@yahoo.com",
+        "firstName": "Stevie",
+        "lastName": "Cronin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33623878",
+        "tenantId": null
+      },
+      {
+        "reference": "3b2acc4a-76b0-4152-aa5d-9139578b4e39",
+        "email": "Ken42@hotmail.com",
+        "firstName": "Toy",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41485519",
+        "tenantId": null
+      },
+      {
+        "reference": "0c4d4f05-1139-4687-9f42-24564e2af6d1",
+        "email": "Cassandra.Mueller71@gmail.com",
+        "firstName": "Muhammad",
+        "lastName": "Keebler-Towne",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/607.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "824b942b-f508-4550-98d7-1d039c183e47",
+        "email": "Modesta28@yahoo.com",
+        "firstName": "Brian",
+        "lastName": "Rohan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/913.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "paper": [
+      {
+        "id": "d4dd23da-883a-46f7-8dd7-e10970403dc5",
+        "title": "Research on Climate Change",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "status": "Draft",
+        "plagiarism_check": false,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T08:50:06.176Z",
+        "updated_at": "2023-08-31T11:53:17.644Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "325e1a15-15b9-4b76-929f-17690ff70716",
+        "title": "Advancements in Artificial Intelligence",
+        "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        "status": "Under Review",
+        "plagiarism_check": false,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T15:27:24.143Z",
+        "updated_at": "2023-09-01T02:37:40.558Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "9bedbc09-3079-4ed6-811c-eb8a0161fbf7",
+        "title": "The Impact of Social Media on Society",
+        "content": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "status": "Accepted",
+        "plagiarism_check": false,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T15:21:10.713Z",
+        "updated_at": "2023-08-31T06:03:21.499Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "781ca76f-2135-4288-b0c9-0fc2bc466f35",
+        "title": "Exploring Renewable Energy Sources",
+        "content": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+        "status": "Rejected",
+        "plagiarism_check": true,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T21:46:38.618Z",
+        "updated_at": "2023-08-31T09:11:03.206Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "384d5ff9-367a-4954-9ae6-8250ddd9e5db",
+        "title": "The Future of Space Exploration",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "status": "Published",
+        "plagiarism_check": true,
+        "relevancy_check": true,
+        "created_at": "2023-08-31T21:34:32.228Z",
+        "updated_at": "2023-08-31T06:49:27.946Z",
+        "author_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "110ba89c-c549-4304-852a-557a67e10b17",
+        "comment": "This paper needs further research.",
+        "status": "Pending",
+        "created_at": "2023-08-31T16:26:17.301Z",
+        "updated_at": "2023-09-01T01:23:35.116Z",
+        "paper_id": "d4dd23da-883a-46f7-8dd7-e10970403dc5",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "1fae8483-27a1-4ff7-bf86-5345323aa454",
+        "comment": "The content is well-written and informative.",
+        "status": "Approved",
+        "created_at": "2023-08-31T04:10:59.973Z",
+        "updated_at": "2023-08-31T23:45:18.682Z",
+        "paper_id": "325e1a15-15b9-4b76-929f-17690ff70716",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "5c965b42-376b-4318-ba65-9f9d466ebfd9",
+        "comment": "The arguments presented are not convincing.",
+        "status": "Rejected",
+        "created_at": "2023-08-31T04:26:36.002Z",
+        "updated_at": "2023-08-31T15:58:22.724Z",
+        "paper_id": "325e1a15-15b9-4b76-929f-17690ff70716",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "b99ce605-e4a3-4286-a11d-d4eb1412d01d",
+        "comment": "The paper lacks proper references.",
+        "status": "Under Review",
+        "created_at": "2023-08-31T15:45:05.675Z",
+        "updated_at": "2023-08-31T05:15:51.744Z",
+        "paper_id": "d4dd23da-883a-46f7-8dd7-e10970403dc5",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "6b9fcc54-1a1a-4840-97eb-ff959f02e2f6",
+        "comment": "The findings of this research are significant.",
+        "status": "Completed",
+        "created_at": "2023-08-31T13:39:12.445Z",
+        "updated_at": "2023-08-31T20:54:41.171Z",
+        "paper_id": "781ca76f-2135-4288-b0c9-0fc2bc466f35",
+        "reviewer_id": "user_entity_pk"
+      }
+    ],
+    "publication": [
+      {
+        "id": "37a57cca-a07c-426c-8143-eac05c7e20a5",
+        "status": "In Progress",
+        "created_at": "2023-08-31T18:57:54.479Z",
+        "updated_at": "2023-08-31T07:08:07.991Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "781ca76f-2135-4288-b0c9-0fc2bc466f35"
+      },
+      {
+        "id": "57425c45-c329-4d2a-b727-4e590118b57b",
+        "status": "Submitted",
+        "created_at": "2023-08-31T22:11:26.615Z",
+        "updated_at": "2023-08-31T11:09:11.410Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "781ca76f-2135-4288-b0c9-0fc2bc466f35"
+      },
+      {
+        "id": "cce087d0-a489-4782-89aa-ef12d58ddc29",
+        "status": "Under Review",
+        "created_at": "2023-08-31T17:45:32.589Z",
+        "updated_at": "2023-08-31T09:40:54.701Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "325e1a15-15b9-4b76-929f-17690ff70716"
+      },
+      {
+        "id": "0f4e29b3-d0d2-42ed-b566-e631c2586892",
+        "status": "Accepted",
+        "created_at": "2023-08-31T21:10:39.879Z",
+        "updated_at": "2023-08-31T15:23:11.656Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "384d5ff9-367a-4954-9ae6-8250ddd9e5db"
+      },
+      {
+        "id": "606b279f-1768-459f-bec7-92bb47a22615",
+        "status": "Published",
+        "created_at": "2023-08-31T22:08:13.206Z",
+        "updated_at": "2023-08-31T07:23:57.550Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "325e1a15-15b9-4b76-929f-17690ff70716"
+      }
+    ],
+    "edit": [
+      {
+        "id": "d464fa16-152c-41d8-bebb-e3d2631b8c08",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "status": "Pending",
+        "created_at": "2023-08-31T08:04:04.194Z",
+        "updated_at": "2023-08-31T11:39:12.135Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "d4dd23da-883a-46f7-8dd7-e10970403dc5"
+      },
+      {
+        "id": "0a64ee21-226c-4b36-a5eb-5d6057553cfc",
+        "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        "status": "In Progress",
+        "created_at": "2023-09-01T00:00:44.673Z",
+        "updated_at": "2023-08-31T16:15:51.114Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "d4dd23da-883a-46f7-8dd7-e10970403dc5"
+      },
+      {
+        "id": "a7070e9d-5f33-4a02-bd67-6d86553a23e1",
+        "content": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "status": "Completed",
+        "created_at": "2023-08-31T17:58:06.333Z",
+        "updated_at": "2023-08-31T06:11:57.376Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "325e1a15-15b9-4b76-929f-17690ff70716"
+      },
+      {
+        "id": "401f175b-7758-48e4-bf96-ae3e139b9012",
+        "content": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+        "status": "Under Review",
+        "created_at": "2023-09-01T01:15:05.981Z",
+        "updated_at": "2023-08-31T13:52:32.575Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "9bedbc09-3079-4ed6-811c-eb8a0161fbf7"
+      },
+      {
+        "id": "4e36f555-1acd-4407-ae6f-82497ece2d94",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "status": "Approved",
+        "created_at": "2023-08-31T07:40:59.601Z",
+        "updated_at": "2023-08-31T19:34:54.648Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "9bedbc09-3079-4ed6-811c-eb8a0161fbf7"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fc2b4e58-bcea-4ca4-8a61-9428d981623c",
+        "email": "Jerod_Wiza34@yahoo.com",
+        "firstName": "Nora",
+        "lastName": "Hessel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/233.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "37875726-0864-40f2-b368-8fd72c34d31a",
+        "email": "Kevin.Mohr@yahoo.com",
+        "firstName": "Laila",
+        "lastName": "Abbott",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32320729",
+        "tenantId": null
+      },
+      {
+        "reference": "b3f4be3c-0446-44e1-b6c9-b6fe44a664fa",
+        "email": "Jeramie83@yahoo.com",
+        "firstName": "Jeffery",
+        "lastName": "Schultz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/877.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4ca04207-798a-4a32-aa4a-36c331f0b128",
+        "email": "Vito33@hotmail.com",
+        "firstName": "Madaline",
+        "lastName": "Luettgen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/561.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "41b43ad0-f277-4826-b66a-bc275bfe4bf1",
+        "email": "Loyal1@yahoo.com",
+        "firstName": "Gavin",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/598.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "paper": [
+      {
+        "id": "5879d27c-b116-4623-a473-989fcc150cf6",
+        "title": "Introduction to Machine Learning",
+        "content": "This paper discusses the basics of machine learning and its applications.",
+        "status": "Draft",
+        "plagiarism_check": false,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T11:59:19.954Z",
+        "updated_at": "2023-08-31T21:48:25.866Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "bfb6542e-066a-4544-8820-baf8064e1f04",
+        "title": "Advancements in Artificial Intelligence",
+        "content": "This paper explores the recent advancements in artificial intelligence.",
+        "status": "Under Review",
+        "plagiarism_check": false,
+        "relevancy_check": true,
+        "created_at": "2023-08-31T19:03:58.905Z",
+        "updated_at": "2023-08-31T09:39:29.298Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "36e5550b-edc8-4e37-bb20-7a5c59497379",
+        "title": "The Impact of Technology on Society",
+        "content": "The paper analyzes the effects of technology on society.",
+        "status": "Accepted",
+        "plagiarism_check": false,
+        "relevancy_check": true,
+        "created_at": "2023-08-31T22:34:01.825Z",
+        "updated_at": "2023-08-31T15:28:59.661Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "20dfccb5-2dc7-4e5c-857a-e74291a0a5c6",
+        "title": "Data Privacy in the Digital Age",
+        "content": "This paper examines the importance of data privacy in the digital age.",
+        "status": "Rejected",
+        "plagiarism_check": true,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T15:18:44.497Z",
+        "updated_at": "2023-08-31T13:43:15.739Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "88a92e40-6a5f-4371-8740-0dd14a3270f7",
+        "title": "Ethical Considerations in AI Development",
+        "content": "The paper highlights the ethical considerations in AI development.",
+        "status": "Published",
+        "plagiarism_check": false,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T16:29:54.568Z",
+        "updated_at": "2023-08-31T15:14:40.010Z",
+        "author_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "50e31674-0d61-4e4a-95a3-017cd4706b8b",
+        "comment": "The paper provides a comprehensive analysis.",
+        "status": "Pending",
+        "created_at": "2023-08-31T10:05:30.521Z",
+        "updated_at": "2023-08-31T18:04:15.579Z",
+        "paper_id": "5879d27c-b116-4623-a473-989fcc150cf6",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "64ef86e5-802d-4446-b5c3-b3a7a19a3929",
+        "comment": "The content needs further clarification.",
+        "status": "Approved",
+        "created_at": "2023-08-31T06:54:34.317Z",
+        "updated_at": "2023-08-31T07:31:06.328Z",
+        "paper_id": "88a92e40-6a5f-4371-8740-0dd14a3270f7",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "b49c72af-e858-42cb-8273-8acd248ee722",
+        "comment": "The paper lacks proper references.",
+        "status": "Rejected",
+        "created_at": "2023-08-31T14:48:02.658Z",
+        "updated_at": "2023-08-31T18:19:18.523Z",
+        "paper_id": "bfb6542e-066a-4544-8820-baf8064e1f04",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "698d80bc-f027-4993-b686-b4bb402f5947",
+        "comment": "The arguments presented are convincing.",
+        "status": "In Progress",
+        "created_at": "2023-09-01T00:37:06.544Z",
+        "updated_at": "2023-08-31T15:41:16.120Z",
+        "paper_id": "bfb6542e-066a-4544-8820-baf8064e1f04",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "da4bd00b-795f-452c-bf9b-1b21d43b2bbf",
+        "comment": "The research methodology is well-designed.",
+        "status": "Completed",
+        "created_at": "2023-08-31T11:05:51.180Z",
+        "updated_at": "2023-09-01T00:55:27.129Z",
+        "paper_id": "88a92e40-6a5f-4371-8740-0dd14a3270f7",
+        "reviewer_id": "user_entity_pk"
+      }
+    ],
+    "publication": [
+      {
+        "id": "6f0ca1d5-272f-429b-8f0a-12cc44b92d86",
+        "status": "Submitted",
+        "created_at": "2023-08-31T23:23:43.755Z",
+        "updated_at": "2023-08-31T22:49:45.311Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "88a92e40-6a5f-4371-8740-0dd14a3270f7"
+      },
+      {
+        "id": "322ad4f3-1744-41b4-ad8d-4826d41185fd",
+        "status": "Under Review",
+        "created_at": "2023-08-31T06:51:47.152Z",
+        "updated_at": "2023-08-31T16:08:24.242Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "36e5550b-edc8-4e37-bb20-7a5c59497379"
+      },
+      {
+        "id": "7e57c6d3-5340-4d59-bcbd-0e04964d4604",
+        "status": "Accepted",
+        "created_at": "2023-08-31T23:08:08.911Z",
+        "updated_at": "2023-08-31T11:30:07.615Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "88a92e40-6a5f-4371-8740-0dd14a3270f7"
+      },
+      {
+        "id": "96eba237-7ea9-457d-af90-80fa3a719a09",
+        "status": "Rejected",
+        "created_at": "2023-08-31T12:51:21.697Z",
+        "updated_at": "2023-08-31T23:32:26.111Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "bfb6542e-066a-4544-8820-baf8064e1f04"
+      },
+      {
+        "id": "23ce2317-4ebc-459f-b515-d599b42eb02a",
+        "status": "Published",
+        "created_at": "2023-08-31T15:22:36.844Z",
+        "updated_at": "2023-08-31T20:21:00.026Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "88a92e40-6a5f-4371-8740-0dd14a3270f7"
+      }
+    ],
+    "edit": [
+      {
+        "id": "82e164c1-e6bb-4059-87de-e6a7fc37d424",
+        "content": "The revised content addresses the reviewer's comments.",
+        "status": "Pending",
+        "created_at": "2023-08-31T05:51:05.782Z",
+        "updated_at": "2023-08-31T16:19:54.506Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "88a92e40-6a5f-4371-8740-0dd14a3270f7"
+      },
+      {
+        "id": "93734567-8b7c-4daf-9f70-1cec36e8c421",
+        "content": "The updated content includes additional examples.",
+        "status": "In Progress",
+        "created_at": "2023-08-31T09:19:00.600Z",
+        "updated_at": "2023-08-31T20:15:44.750Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "20dfccb5-2dc7-4e5c-857a-e74291a0a5c6"
+      },
+      {
+        "id": "daae0744-4dd6-4442-9e0c-f57e334b1385",
+        "content": "The edited version provides a clearer explanation.",
+        "status": "Completed",
+        "created_at": "2023-08-31T08:59:53.453Z",
+        "updated_at": "2023-08-31T07:17:08.586Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "5879d27c-b116-4623-a473-989fcc150cf6"
+      },
+      {
+        "id": "ee5869ee-b822-4c9c-9cff-0ca8455a44b5",
+        "content": "The revised content reflects the latest research findings.",
+        "status": "Approved",
+        "created_at": "2023-08-31T17:54:21.330Z",
+        "updated_at": "2023-08-31T07:42:56.227Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "bfb6542e-066a-4544-8820-baf8064e1f04"
+      },
+      {
+        "id": "03be2355-8673-4461-8582-dd63c617dd6f",
+        "content": "The edited version incorporates feedback from multiple reviewers.",
+        "status": "Rejected",
+        "created_at": "2023-08-31T10:10:16.341Z",
+        "updated_at": "2023-08-31T23:35:47.214Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "5879d27c-b116-4623-a473-989fcc150cf6"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d300189f-620f-42ce-933e-32237674caaf",
+        "email": "Bailey82@gmail.com",
+        "firstName": "Veronica",
+        "lastName": "Littel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3469644",
+        "tenantId": null
+      },
+      {
+        "reference": "a0cb4a70-ced2-4c2b-8ccc-6486dcdf7284",
+        "email": "Henderson22@gmail.com",
+        "firstName": "Timmy",
+        "lastName": "Ward",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/742.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9597ed94-c627-4e7a-913d-846077f62470",
+        "email": "Clotilde45@gmail.com",
+        "firstName": "Darrick",
+        "lastName": "Ondricka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/714.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "917bef61-b606-480a-92c2-cd842f249081",
+        "email": "Orval.Graham@hotmail.com",
+        "firstName": "Nicolas",
+        "lastName": "Reichert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/293.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "98c160a7-571a-4fbc-880b-a1510fe572e4",
+        "email": "Newell60@hotmail.com",
+        "firstName": "Coralie",
+        "lastName": "Braun",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63574449",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "paper": [
+      {
+        "id": "6734eee6-a227-42cd-a20e-300802eeeb74",
+        "title": "Research Paper 1",
+        "content": "This is the content of the paper.",
+        "status": "Draft",
+        "plagiarism_check": false,
+        "relevancy_check": true,
+        "created_at": "2023-08-31T05:21:08.545Z",
+        "updated_at": "2023-08-31T14:09:38.107Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "e9f88d1e-1425-4e93-ac75-112d3f6c59cb",
+        "title": "Scientific Study",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "status": "Under Review",
+        "plagiarism_check": true,
+        "relevancy_check": true,
+        "created_at": "2023-08-31T13:19:15.011Z",
+        "updated_at": "2023-08-31T17:18:28.679Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "87367792-e5de-4a81-b1c0-367c26cb4a9f",
+        "title": "Analysis Report",
+        "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
+        "status": "Accepted",
+        "plagiarism_check": true,
+        "relevancy_check": false,
+        "created_at": "2023-09-01T02:23:44.226Z",
+        "updated_at": "2023-08-31T08:20:34.084Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "f031c7ed-39bf-4560-80c6-5c9ca4f41121",
+        "title": "Academic Paper",
+        "content": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "status": "Rejected",
+        "plagiarism_check": false,
+        "relevancy_check": true,
+        "created_at": "2023-08-31T19:24:21.722Z",
+        "updated_at": "2023-08-31T23:56:02.172Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "33e150d7-6ea2-45b5-9677-a048500f34dc",
+        "title": "Case Study",
+        "content": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+        "status": "Published",
+        "plagiarism_check": false,
+        "relevancy_check": true,
+        "created_at": "2023-08-31T17:17:46.276Z",
+        "updated_at": "2023-08-31T05:54:55.861Z",
+        "author_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "e300d05f-6c2d-41d1-8dbc-03ba84cd4a65",
+        "comment": "Great work!",
+        "status": "Pending",
+        "created_at": "2023-08-31T14:34:14.480Z",
+        "updated_at": "2023-09-01T00:05:24.451Z",
+        "paper_id": "87367792-e5de-4a81-b1c0-367c26cb4a9f",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "a7f28835-d6a4-4ebc-b221-b2abe824ad54",
+        "comment": "Needs improvement.",
+        "status": "Approved",
+        "created_at": "2023-08-31T15:24:29.154Z",
+        "updated_at": "2023-08-31T23:19:27.715Z",
+        "paper_id": "87367792-e5de-4a81-b1c0-367c26cb4a9f",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "c66581b7-5dea-4e93-9dd0-f2739facf1b8",
+        "comment": "Interesting findings.",
+        "status": "Rejected",
+        "created_at": "2023-08-31T17:44:03.704Z",
+        "updated_at": "2023-08-31T11:45:19.062Z",
+        "paper_id": "6734eee6-a227-42cd-a20e-300802eeeb74",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "80d52352-5630-4a0e-9000-9733efb466a5",
+        "comment": "Well written.",
+        "status": "Under Review",
+        "created_at": "2023-08-31T20:02:38.951Z",
+        "updated_at": "2023-08-31T04:00:41.652Z",
+        "paper_id": "f031c7ed-39bf-4560-80c6-5c9ca4f41121",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "f1d43cf5-5371-4508-9f6a-a43db00d4fff",
+        "comment": "Not convincing enough.",
+        "status": "Completed",
+        "created_at": "2023-08-31T20:13:44.675Z",
+        "updated_at": "2023-08-31T05:23:12.792Z",
+        "paper_id": "6734eee6-a227-42cd-a20e-300802eeeb74",
+        "reviewer_id": "user_entity_pk"
+      }
+    ],
+    "publication": [
+      {
+        "id": "d984dd89-16a9-4a7e-bb78-de5be74e330f",
+        "status": "In Progress",
+        "created_at": "2023-08-31T12:04:15.564Z",
+        "updated_at": "2023-08-31T23:56:33.515Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "f031c7ed-39bf-4560-80c6-5c9ca4f41121"
+      },
+      {
+        "id": "9ce797da-e029-4519-907e-43bd336f7b0c",
+        "status": "Submitted",
+        "created_at": "2023-08-31T08:42:49.652Z",
+        "updated_at": "2023-08-31T05:12:45.448Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "e9f88d1e-1425-4e93-ac75-112d3f6c59cb"
+      },
+      {
+        "id": "9e8e0c1c-9194-41ec-a2f5-131ddedc2bc9",
+        "status": "Under Review",
+        "created_at": "2023-08-31T09:04:05.064Z",
+        "updated_at": "2023-08-31T17:26:00.296Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "e9f88d1e-1425-4e93-ac75-112d3f6c59cb"
+      },
+      {
+        "id": "e2aed0e4-8af8-4057-b196-aa24609e2b92",
+        "status": "Published",
+        "created_at": "2023-08-31T11:07:59.314Z",
+        "updated_at": "2023-08-31T23:06:00.688Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "87367792-e5de-4a81-b1c0-367c26cb4a9f"
+      },
+      {
+        "id": "92e79882-6a51-4a36-80a3-0fcd0716a352",
+        "status": "Archived",
+        "created_at": "2023-09-01T01:52:49.683Z",
+        "updated_at": "2023-08-31T05:32:54.316Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "f031c7ed-39bf-4560-80c6-5c9ca4f41121"
+      }
+    ],
+    "edit": [
+      {
+        "id": "b5838ae5-e165-49cc-8727-b035bd64fc9e",
+        "content": "This is the edited content.",
+        "status": "Pending",
+        "created_at": "2023-09-01T01:53:17.157Z",
+        "updated_at": "2023-08-31T08:11:25.376Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "f031c7ed-39bf-4560-80c6-5c9ca4f41121"
+      },
+      {
+        "id": "a9b37ff5-0402-4a6d-a937-a7e58c687e61",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "status": "Approved",
+        "created_at": "2023-08-31T19:12:58.619Z",
+        "updated_at": "2023-08-31T18:42:13.572Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "33e150d7-6ea2-45b5-9677-a048500f34dc"
+      },
+      {
+        "id": "117f0023-3762-4f37-b312-b86aa5c95120",
+        "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
+        "status": "Rejected",
+        "created_at": "2023-08-31T14:29:45.976Z",
+        "updated_at": "2023-09-01T01:18:34.576Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "e9f88d1e-1425-4e93-ac75-112d3f6c59cb"
+      },
+      {
+        "id": "25fdd0c0-1424-4647-a57b-892717280004",
+        "content": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "status": "Under Review",
+        "created_at": "2023-09-01T02:47:59.456Z",
+        "updated_at": "2023-08-31T16:47:20.095Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "6734eee6-a227-42cd-a20e-300802eeeb74"
+      },
+      {
+        "id": "0e0f86e7-641c-4827-a80a-c50ea0de0e88",
+        "content": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+        "status": "Completed",
+        "created_at": "2023-08-31T19:12:16.605Z",
+        "updated_at": "2023-09-01T03:02:36.092Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "f031c7ed-39bf-4560-80c6-5c9ca4f41121"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "35cbb591-cd90-4f63-b6a3-52c55dc79420",
+        "email": "Keven_Legros@hotmail.com",
+        "firstName": "Albina",
+        "lastName": "Murazik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1090.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3163ccf3-1aab-45e9-a503-4a8049487068",
+        "email": "Elwin.Grant@hotmail.com",
+        "firstName": "Alanis",
+        "lastName": "Shanahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1074.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0a62ac18-f863-4a12-b1c6-c94bb01c0586",
+        "email": "Ivory_Ebert48@hotmail.com",
+        "firstName": "Kolby",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/494.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9df9b140-2e75-4283-a671-1d4e631a4549",
+        "email": "Wilfred.Orn@yahoo.com",
+        "firstName": "Enid",
+        "lastName": "Williamson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4793323",
+        "tenantId": null
+      },
+      {
+        "reference": "d06c1c40-a8a1-4ac9-9823-9b4cb6b12d41",
+        "email": "Samanta_Rodriguez0@gmail.com",
+        "firstName": "Madonna",
+        "lastName": "Fritsch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52224391",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "paper": [
+      {
+        "id": "a7a60c4b-fb59-4eb3-a3af-1bd78fc52cb9",
+        "title": "Research Paper 1",
+        "content": "This is the content of the research paper.",
+        "status": "Draft",
+        "plagiarism_check": true,
+        "relevancy_check": true,
+        "created_at": "2023-09-01T00:44:01.830Z",
+        "updated_at": "2023-08-31T03:56:08.633Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "4581b745-f860-465e-b472-39573a9310ef",
+        "title": "Scientific Study",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "status": "Under Review",
+        "plagiarism_check": true,
+        "relevancy_check": true,
+        "created_at": "2023-09-01T02:54:55.386Z",
+        "updated_at": "2023-08-31T13:52:18.277Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "ff2f34ea-1c63-49e3-a74c-d4afb2662535",
+        "title": "Analysis Report",
+        "content": "The analysis report provides insights into the data.",
+        "status": "Accepted",
+        "plagiarism_check": true,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T23:43:07.775Z",
+        "updated_at": "2023-08-31T11:16:28.069Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "3b4094eb-a379-48d2-9ebb-2cef667287c1",
+        "title": "Academic Paper",
+        "content": "The academic paper presents findings from the study.",
+        "status": "Rejected",
+        "plagiarism_check": true,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T23:12:28.664Z",
+        "updated_at": "2023-08-31T12:53:22.607Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "b34a34d7-cecb-477b-8bf9-b569f8fd70b9",
+        "title": "Case Study",
+        "content": "The case study examines a specific scenario.",
+        "status": "Published",
+        "plagiarism_check": true,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T04:39:38.243Z",
+        "updated_at": "2023-08-31T04:19:24.828Z",
+        "author_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "27ac95a2-6792-418f-825f-b5e40c6fb3b9",
+        "comment": "Great work!",
+        "status": "Pending",
+        "created_at": "2023-08-31T20:03:27.822Z",
+        "updated_at": "2023-08-31T10:31:36.513Z",
+        "paper_id": "a7a60c4b-fb59-4eb3-a3af-1bd78fc52cb9",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "8b773ac9-2eda-4341-baa3-f34922f34e3a",
+        "comment": "Interesting findings.",
+        "status": "Approved",
+        "created_at": "2023-09-01T03:07:59.514Z",
+        "updated_at": "2023-08-31T05:13:00.088Z",
+        "paper_id": "3b4094eb-a379-48d2-9ebb-2cef667287c1",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "51b26274-1f0f-4cf9-a311-c75edc3fc870",
+        "comment": "Needs more clarity.",
+        "status": "Rejected",
+        "created_at": "2023-08-31T09:32:20.138Z",
+        "updated_at": "2023-08-31T23:14:45.704Z",
+        "paper_id": "a7a60c4b-fb59-4eb3-a3af-1bd78fc52cb9",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "6c2f3086-0406-4f84-8e62-a713057b34f4",
+        "comment": "Well-written paper.",
+        "status": "Revised",
+        "created_at": "2023-08-31T04:18:14.212Z",
+        "updated_at": "2023-09-01T03:18:13.898Z",
+        "paper_id": "ff2f34ea-1c63-49e3-a74c-d4afb2662535",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "43e00de1-ef28-43cd-bc57-4519418f9a7a",
+        "comment": "Impressive analysis.",
+        "status": "Published",
+        "created_at": "2023-08-31T20:22:35.831Z",
+        "updated_at": "2023-08-31T17:06:44.978Z",
+        "paper_id": "ff2f34ea-1c63-49e3-a74c-d4afb2662535",
+        "reviewer_id": "user_entity_pk"
+      }
+    ],
+    "publication": [
+      {
+        "id": "034d23ed-2a8e-4b58-8802-14100db94462",
+        "status": "In Progress",
+        "created_at": "2023-08-31T15:15:37.574Z",
+        "updated_at": "2023-09-01T01:46:24.348Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "ff2f34ea-1c63-49e3-a74c-d4afb2662535"
+      },
+      {
+        "id": "e424a105-f9bd-4ff9-9874-1cea6e86a9ce",
+        "status": "Submitted",
+        "created_at": "2023-08-31T13:37:01.193Z",
+        "updated_at": "2023-08-31T15:56:59.780Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "ff2f34ea-1c63-49e3-a74c-d4afb2662535"
+      },
+      {
+        "id": "9eaccb74-75fe-4939-aeca-a2d1bf56dd07",
+        "status": "Under Review",
+        "created_at": "2023-08-31T05:33:58.866Z",
+        "updated_at": "2023-08-31T06:23:20.889Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "3b4094eb-a379-48d2-9ebb-2cef667287c1"
+      },
+      {
+        "id": "e75157c4-7bed-4562-9748-de9d5bec5322",
+        "status": "Accepted",
+        "created_at": "2023-09-01T01:18:17.792Z",
+        "updated_at": "2023-08-31T04:01:00.805Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "3b4094eb-a379-48d2-9ebb-2cef667287c1"
+      },
+      {
+        "id": "d936e1ca-829c-4232-913f-de65b895cf4f",
+        "status": "Published",
+        "created_at": "2023-08-31T05:15:46.102Z",
+        "updated_at": "2023-09-01T03:22:55.354Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "4581b745-f860-465e-b472-39573a9310ef"
+      }
+    ],
+    "edit": [
+      {
+        "id": "df550846-aa7e-430d-ba7f-2649ff16f3a1",
+        "content": "Revised content for the paper.",
+        "status": "Pending",
+        "created_at": "2023-08-31T16:30:22.944Z",
+        "updated_at": "2023-08-31T05:46:27.572Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "b34a34d7-cecb-477b-8bf9-b569f8fd70b9"
+      },
+      {
+        "id": "888eae9d-e876-4659-bb24-198f95830907",
+        "content": "Updated information in the report.",
+        "status": "In Progress",
+        "created_at": "2023-09-01T00:55:31.852Z",
+        "updated_at": "2023-09-01T00:59:53.860Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "b34a34d7-cecb-477b-8bf9-b569f8fd70b9"
+      },
+      {
+        "id": "3b4fe220-9e3c-422b-8ae7-3c99f69ba49d",
+        "content": "Enhanced analysis findings.",
+        "status": "Completed",
+        "created_at": "2023-08-31T20:24:38.917Z",
+        "updated_at": "2023-08-31T17:04:56.938Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "4581b745-f860-465e-b472-39573a9310ef"
+      },
+      {
+        "id": "392c492d-6450-47da-b236-3e67fda2487a",
+        "content": "Improved academic paper structure.",
+        "status": "Reviewed",
+        "created_at": "2023-08-31T05:47:26.578Z",
+        "updated_at": "2023-08-31T23:33:20.526Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "b34a34d7-cecb-477b-8bf9-b569f8fd70b9"
+      },
+      {
+        "id": "8ba5f204-ef65-4e4c-a99a-4e81f40e2cf7",
+        "content": "Refined case study methodology.",
+        "status": "Approved",
+        "created_at": "2023-08-31T18:51:51.717Z",
+        "updated_at": "2023-09-01T00:46:56.972Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "3b4094eb-a379-48d2-9ebb-2cef667287c1"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ec9dd93c-9e0f-49da-95ed-bf17ef25e6df",
+        "email": "America_Boyle@gmail.com",
+        "firstName": "Theodora",
+        "lastName": "Schuster",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88209982",
+        "tenantId": null
+      },
+      {
+        "reference": "612806fb-d313-48f9-b82c-7e55aee916ac",
+        "email": "Dennis_Goodwin28@yahoo.com",
+        "firstName": "Ella",
+        "lastName": "Lind",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64263645",
+        "tenantId": null
+      },
+      {
+        "reference": "04819c66-fc7f-4d22-9cba-da9f79a6b885",
+        "email": "Hilbert_Bayer@yahoo.com",
+        "firstName": "Maybell",
+        "lastName": "Paucek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1221.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "44dd9572-7d12-43c0-a2d9-d7d81e9ee52c",
+        "email": "Meta16@gmail.com",
+        "firstName": "Lilla",
+        "lastName": "McGlynn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50340090",
+        "tenantId": null
+      },
+      {
+        "reference": "48d5a3e8-cdd2-40e5-8826-441d54036366",
+        "email": "Makayla14@hotmail.com",
+        "firstName": "Bryana",
+        "lastName": "Predovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66236681",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "paper": [
+      {
+        "id": "aa9d704f-adcb-4e89-8b4f-7b98b2a9c80c",
+        "title": "Research on Climate Change",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "status": "Draft",
+        "plagiarism_check": false,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T18:40:10.659Z",
+        "updated_at": "2023-08-31T13:10:39.960Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "277ecee2-db5e-4101-9829-bb9455ce99b5",
+        "title": "Advancements in Artificial Intelligence",
+        "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
+        "status": "Under Review",
+        "plagiarism_check": false,
+        "relevancy_check": false,
+        "created_at": "2023-09-01T03:35:34.926Z",
+        "updated_at": "2023-08-31T16:44:50.997Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "35212aa7-3e63-4333-8d7d-027183034f38",
+        "title": "Effects of Globalization on Economy",
+        "content": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "status": "Accepted",
+        "plagiarism_check": false,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T03:50:24.582Z",
+        "updated_at": "2023-09-01T03:24:49.139Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "20aef200-0378-4f7f-ac7b-5c527e090056",
+        "title": "The Future of Renewable Energy",
+        "content": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+        "status": "Rejected",
+        "plagiarism_check": false,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T08:47:04.096Z",
+        "updated_at": "2023-08-31T17:15:04.148Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "2ea87fd8-6ebc-4b8e-b722-17806ea5bd92",
+        "title": "Challenges in Healthcare Industry",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "status": "Published",
+        "plagiarism_check": true,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T09:06:02.720Z",
+        "updated_at": "2023-08-31T07:54:30.878Z",
+        "author_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "eed1f3b4-b282-4b41-b3b5-67e831c81076",
+        "comment": "This paper provides valuable insights.",
+        "status": "Pending",
+        "created_at": "2023-08-31T13:43:19.743Z",
+        "updated_at": "2023-08-31T20:10:35.571Z",
+        "paper_id": "2ea87fd8-6ebc-4b8e-b722-17806ea5bd92",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "6bf93f93-2ee4-4146-a5bb-f4f1ef83f43f",
+        "comment": "The content needs further elaboration.",
+        "status": "Approved",
+        "created_at": "2023-08-31T20:37:10.630Z",
+        "updated_at": "2023-08-31T05:12:25.407Z",
+        "paper_id": "aa9d704f-adcb-4e89-8b4f-7b98b2a9c80c",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "d9b0040e-17c0-4b2f-9e08-6ae3ac6189fe",
+        "comment": "The research methodology is sound.",
+        "status": "Rejected",
+        "created_at": "2023-08-31T14:48:38.612Z",
+        "updated_at": "2023-08-31T12:17:29.305Z",
+        "paper_id": "35212aa7-3e63-4333-8d7d-027183034f38",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "7fe13bff-bfff-41d8-9e8c-9e7bc2d2e8a0",
+        "comment": "The paper lacks proper references.",
+        "status": "Under Review",
+        "created_at": "2023-08-31T20:42:31.586Z",
+        "updated_at": "2023-08-31T06:26:11.365Z",
+        "paper_id": "20aef200-0378-4f7f-ac7b-5c527e090056",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "e34ad9a4-6b9e-420d-b6d3-88e4fec39762",
+        "comment": "The findings are significant.",
+        "status": "Completed",
+        "created_at": "2023-09-01T00:35:11.231Z",
+        "updated_at": "2023-09-01T02:21:44.511Z",
+        "paper_id": "aa9d704f-adcb-4e89-8b4f-7b98b2a9c80c",
+        "reviewer_id": "user_entity_pk"
+      }
+    ],
+    "publication": [
+      {
+        "id": "9c7c68d0-a3de-4d3b-9623-8d84217ac46a",
+        "status": "Submitted",
+        "created_at": "2023-09-01T03:11:48.636Z",
+        "updated_at": "2023-08-31T07:47:55.680Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "aa9d704f-adcb-4e89-8b4f-7b98b2a9c80c"
+      },
+      {
+        "id": "0b9a0b01-e543-45d3-b36a-99ceb870d15d",
+        "status": "Under Review",
+        "created_at": "2023-08-31T12:39:24.915Z",
+        "updated_at": "2023-09-01T03:29:12.394Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "20aef200-0378-4f7f-ac7b-5c527e090056"
+      },
+      {
+        "id": "f60bf797-a90c-4e6b-a3cc-c3a061a53a5d",
+        "status": "Accepted",
+        "created_at": "2023-08-31T05:39:44.880Z",
+        "updated_at": "2023-08-31T17:27:27.927Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "20aef200-0378-4f7f-ac7b-5c527e090056"
+      },
+      {
+        "id": "86c1219b-924f-4111-8d6f-2b5562e43d5b",
+        "status": "Rejected",
+        "created_at": "2023-08-31T11:17:58.511Z",
+        "updated_at": "2023-09-01T01:15:30.031Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "aa9d704f-adcb-4e89-8b4f-7b98b2a9c80c"
+      },
+      {
+        "id": "26ca963c-6d33-4288-8114-8836b1207485",
+        "status": "Published",
+        "created_at": "2023-08-31T16:15:34.164Z",
+        "updated_at": "2023-09-01T02:24:33.248Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "2ea87fd8-6ebc-4b8e-b722-17806ea5bd92"
+      }
+    ],
+    "edit": [
+      {
+        "id": "a4e60720-b573-4aee-93a6-8fc6bd39c81d",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "status": "Pending",
+        "created_at": "2023-09-01T01:21:25.114Z",
+        "updated_at": "2023-08-31T07:35:49.831Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "277ecee2-db5e-4101-9829-bb9455ce99b5"
+      },
+      {
+        "id": "a22a76da-c2ef-4cd8-8fea-48c075dd1e22",
+        "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
+        "status": "In Progress",
+        "created_at": "2023-08-31T17:39:46.331Z",
+        "updated_at": "2023-09-01T00:01:29.551Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "2ea87fd8-6ebc-4b8e-b722-17806ea5bd92"
+      },
+      {
+        "id": "c70eee58-f3bb-4321-bf1c-9fc9aac110fb",
+        "content": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "status": "Completed",
+        "created_at": "2023-08-31T13:16:49.080Z",
+        "updated_at": "2023-08-31T07:41:12.762Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "20aef200-0378-4f7f-ac7b-5c527e090056"
+      },
+      {
+        "id": "d234f748-9fa9-4eae-aa6f-3d40aac07e73",
+        "content": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+        "status": "Under Review",
+        "created_at": "2023-09-01T02:47:13.965Z",
+        "updated_at": "2023-08-31T16:38:51.693Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "35212aa7-3e63-4333-8d7d-027183034f38"
+      },
+      {
+        "id": "8819ebe2-55a7-4b46-b685-abbfb6e89eaa",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "status": "Approved",
+        "created_at": "2023-08-31T23:01:57.511Z",
+        "updated_at": "2023-08-31T12:46:42.618Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "35212aa7-3e63-4333-8d7d-027183034f38"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3f56f95c-448b-4be9-893b-8cf849ce8579",
+        "email": "Reggie_Pfannerstill@gmail.com",
+        "firstName": "Jazlyn",
+        "lastName": "Walsh",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44305515",
+        "tenantId": null
+      },
+      {
+        "reference": "b9285640-bc8d-496c-8cd7-f9204f343edf",
+        "email": "Eva43@yahoo.com",
+        "firstName": "Lizzie",
+        "lastName": "Smith",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/188.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0bca7ebb-f672-44c3-984c-fd3a6574fa34",
+        "email": "Eli.Klein@hotmail.com",
+        "firstName": "Rudy",
+        "lastName": "Daniel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/974.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5cfbf796-7258-43ae-975c-6824e1583837",
+        "email": "Martina.Bergnaum-OKon@yahoo.com",
+        "firstName": "Reta",
+        "lastName": "Macejkovic-D'Amore",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/118.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b91d6bc6-bf0f-4330-a929-94f2c7b24a36",
+        "email": "Mario_Carter@yahoo.com",
+        "firstName": "Monroe",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1246.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "paper": [
+      {
+        "id": "fe85bc22-b541-47e9-a1e2-6ad28f9dc7f3",
+        "title": "Research Paper 1",
+        "content": "This is the content of paper 1.",
+        "status": "Draft",
+        "plagiarism_check": false,
+        "relevancy_check": false,
+        "created_at": "2023-09-01T03:02:33.186Z",
+        "updated_at": "2023-08-31T11:52:08.156Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "6012ffbc-b24e-4fde-b702-e5f88f2b69bf",
+        "title": "Scientific Study",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "status": "Under Review",
+        "plagiarism_check": false,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T06:35:32.114Z",
+        "updated_at": "2023-08-31T06:59:29.962Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "e40b4e8a-2b8a-47b4-b3bd-c0cdbce75ca5",
+        "title": "Analysis Report",
+        "content": "Nulla facilisi.",
+        "status": "Accepted",
+        "plagiarism_check": true,
+        "relevancy_check": true,
+        "created_at": "2023-08-31T11:49:18.774Z",
+        "updated_at": "2023-08-31T14:57:15.274Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "4fe39b26-3f80-4d2a-989a-da9f9536a08d",
+        "title": "Academic Paper",
+        "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
+        "status": "Rejected",
+        "plagiarism_check": true,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T07:33:54.261Z",
+        "updated_at": "2023-08-31T08:11:40.226Z",
+        "author_id": "user_entity_pk"
+      },
+      {
+        "id": "bf557582-f895-4069-aa30-b2a049dbdb1a",
+        "title": "Experimental Study",
+        "content": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "status": "Published",
+        "plagiarism_check": false,
+        "relevancy_check": false,
+        "created_at": "2023-08-31T21:01:42.056Z",
+        "updated_at": "2023-08-31T05:21:45.024Z",
+        "author_id": "user_entity_pk"
+      }
+    ],
+    "review": [
+      {
+        "id": "bdcf873a-ff48-49a1-b1a4-67f8bbc1ddd3",
+        "comment": "This is a review comment.",
+        "status": "Pending",
+        "created_at": "2023-08-31T22:14:21.317Z",
+        "updated_at": "2023-08-31T18:39:50.809Z",
+        "paper_id": "bf557582-f895-4069-aa30-b2a049dbdb1a",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "7ac538d4-17c1-4919-ad50-beac2db5a872",
+        "comment": "Great work!",
+        "status": "Approved",
+        "created_at": "2023-08-31T14:03:57.040Z",
+        "updated_at": "2023-08-31T12:16:38.014Z",
+        "paper_id": "fe85bc22-b541-47e9-a1e2-6ad28f9dc7f3",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "a363b51f-0326-47de-9a7b-fdd6144bb902",
+        "comment": "Needs improvement.",
+        "status": "Rejected",
+        "created_at": "2023-09-01T02:37:44.142Z",
+        "updated_at": "2023-08-31T21:01:54.665Z",
+        "paper_id": "fe85bc22-b541-47e9-a1e2-6ad28f9dc7f3",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "04a01711-f903-4d07-9955-1d11ee6c1a0b",
+        "comment": "Interesting findings.",
+        "status": "Under Review",
+        "created_at": "2023-08-31T18:49:51.943Z",
+        "updated_at": "2023-08-31T14:20:00.107Z",
+        "paper_id": "fe85bc22-b541-47e9-a1e2-6ad28f9dc7f3",
+        "reviewer_id": "user_entity_pk"
+      },
+      {
+        "id": "80378a32-fc71-429b-b7a8-b74315fb0276",
+        "comment": "Well-written paper.",
+        "status": "Completed",
+        "created_at": "2023-08-31T17:16:58.198Z",
+        "updated_at": "2023-08-31T09:42:30.594Z",
+        "paper_id": "e40b4e8a-2b8a-47b4-b3bd-c0cdbce75ca5",
+        "reviewer_id": "user_entity_pk"
+      }
+    ],
+    "publication": [
+      {
+        "id": "65a57223-224e-4521-b118-466894a22c21",
+        "status": "Pending",
+        "created_at": "2023-08-31T08:30:00.063Z",
+        "updated_at": "2023-08-31T11:59:39.479Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "4fe39b26-3f80-4d2a-989a-da9f9536a08d"
+      },
+      {
+        "id": "4d8f577b-fbaf-4395-aea4-4a303d2da296",
+        "status": "Approved",
+        "created_at": "2023-09-01T01:16:39.659Z",
+        "updated_at": "2023-08-31T16:39:13.256Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "e40b4e8a-2b8a-47b4-b3bd-c0cdbce75ca5"
+      },
+      {
+        "id": "fa11526a-2d36-4862-9518-1b289152abf5",
+        "status": "Rejected",
+        "created_at": "2023-09-01T01:31:18.024Z",
+        "updated_at": "2023-09-01T02:04:14.972Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "bf557582-f895-4069-aa30-b2a049dbdb1a"
+      },
+      {
+        "id": "b10d58c7-fb95-4880-aff7-c891860eb57d",
+        "status": "Under Review",
+        "created_at": "2023-08-31T08:07:38.472Z",
+        "updated_at": "2023-08-31T14:31:40.226Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "4fe39b26-3f80-4d2a-989a-da9f9536a08d"
+      },
+      {
+        "id": "87751dad-84c4-4e06-aff8-0608bcaf3758",
+        "status": "Published",
+        "created_at": "2023-08-31T15:08:59.190Z",
+        "updated_at": "2023-09-01T03:38:09.641Z",
+        "editor_in_chief_id": "user_entity_pk",
+        "paper_id": "fe85bc22-b541-47e9-a1e2-6ad28f9dc7f3"
+      }
+    ],
+    "edit": [
+      {
+        "id": "6d7bdd4a-32b1-4b49-a061-e215e9a7ba19",
+        "content": "This is the edited content.",
+        "status": "Pending",
+        "created_at": "2023-08-31T17:03:49.858Z",
+        "updated_at": "2023-09-01T00:04:38.551Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "bf557582-f895-4069-aa30-b2a049dbdb1a"
+      },
+      {
+        "id": "d399f1a1-8e90-4d89-91b3-11441901dcd6",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "status": "Approved",
+        "created_at": "2023-08-31T04:50:51.993Z",
+        "updated_at": "2023-08-31T20:45:42.899Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "6012ffbc-b24e-4fde-b702-e5f88f2b69bf"
+      },
+      {
+        "id": "d7ef1392-bcf5-4384-bbd9-65d0442dd2e5",
+        "content": "Nulla facilisi.",
+        "status": "Rejected",
+        "created_at": "2023-08-31T17:43:19.847Z",
+        "updated_at": "2023-08-31T23:01:28.364Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "4fe39b26-3f80-4d2a-989a-da9f9536a08d"
+      },
+      {
+        "id": "5cd67374-49a1-49ed-819d-3b624a40ab2f",
+        "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
+        "status": "Under Review",
+        "created_at": "2023-08-31T18:39:23.955Z",
+        "updated_at": "2023-08-31T17:37:47.954Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "6012ffbc-b24e-4fde-b702-e5f88f2b69bf"
+      },
+      {
+        "id": "1f5124eb-07fc-49b3-b4ac-fedfd0652ed7",
+        "content": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "status": "Completed",
+        "created_at": "2023-08-31T09:22:28.977Z",
+        "updated_at": "2023-08-31T13:00:26.724Z",
+        "editor_id": "user_entity_pk",
+        "paper_id": "e40b4e8a-2b8a-47b4-b3bd-c0cdbce75ca5"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1f80cc4b-18f9-4a40-b9eb-fcb670d6bd08",
+        "email": "Rachelle.Braun98@yahoo.com",
+        "firstName": "Rosario",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/276.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5e694eb6-ccf6-4b0a-8b88-9cd532c45d53",
+        "email": "Alexandre.Walker31@yahoo.com",
+        "firstName": "Maybelle",
+        "lastName": "Beahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/530.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0375a83e-6a46-4cd2-9ce1-9712088f305a",
+        "email": "Hayley_Waters@gmail.com",
+        "firstName": "Fern",
+        "lastName": "Leuschke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/539.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6026b30d-1bec-47c6-a605-94048e483d45",
+        "email": "Moshe28@hotmail.com",
+        "firstName": "Nelda",
+        "lastName": "Schneider",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96820960",
+        "tenantId": null
+      },
+      {
+        "reference": "8085b2d3-a6d9-42a1-b6d3-c4a279b7af31",
+        "email": "Grant96@gmail.com",
+        "firstName": "Raheem",
+        "lastName": "Fisher",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1060.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
